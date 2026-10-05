@@ -1,0 +1,15 @@
+[settings]
+domain = "amazon.it"      # dominio di default (amazon.de, amazon.com, ...)
+historic_low = true       # avvisa a ogni nuovo minimo storico
+
+# Per ogni prodotto: 'asin' oppure 'url' (anche quello lungo copiato dal browser).
+# Tutte le soglie sono opzionali e si possono combinare.
+[[products]]
+asin = "B0C1234567"        # <-- sostituiscimi con un ASIN vero
+name = "Esempio: cuffie"   # opzionale, altrimenti uso il titolo della pagina
+target_price = 49.90       # avvisa quando il prezzo scende a questo valore o sotto
+drop_pct = 10              # avvisa se cala di almeno il 10% rispetto all'ultima lettura
+
+# [[products]]
+# url = "https://www.amazon.it/Qualcosa/dp/B0XXXXXXXX/ref=..."
+# target_price = 120

@@ -1,8 +1,9 @@
 name: Controlla prezzi
 
 on:
-  schedule:
-    - cron: "17 */6 * * *"   # ogni 6 ore (UTC)
+  # Schedulazione disattivata. Per riattivarla, aggiungi:
+  #   schedule:
+  #     - cron: "17 */6 * * *"   # ogni 6 ore (UTC)
   workflow_dispatch:
 
 permissions:

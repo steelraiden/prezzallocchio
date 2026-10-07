@@ -1,6 +1,6 @@
 # Prezzi monitorati
 
-Aggiornato il 06/10/2026 18:27
+Aggiornato il 07/10/2026 06:08
 
 | Prodotto | Ora | Min | Max | Media | Min il | Andamento |
 |---|---:|---:|---:|---:|---|---|
